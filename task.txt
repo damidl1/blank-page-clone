@@ -1,0 +1,28 @@
+clone di blank page:
+
+1- possibilità di scrivere sulla pagina 
+
+2- il testo scritto deve essere memorizzato nel local storage e ricaricato al ritorno dell'utente
+
+3- conto del numero di parole e del numero dei caratteri
+
+4- possibilità di download del txt scritto sulla pagina
+
+5- farlo bello !!
+
+
+
+funzionalità aggiuntive:
+
+1- possibilità di scegliere il tema (usare funzione theme switch per esempio se si usano i web components)
+
+2- implementare la visualizzazione a schermo intero
+
+3- gestire la conversione di testo in formato markdown https://www.markdownguide.org/  per inserire caratteri che vengono formattati, cercare ad esempio libreria su vite o cercare su internet
+
+4- scaricare la pagina web 
+
+https://www.tiny.cloud/blog/using-html-contenteditable/
+
+
+
