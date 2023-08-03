@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blank Page Clone</title>
-    <link rel="stylesheet" href="./style.css">
+    <link id="main-style" rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./variable-style.css">
 </head>
 <body>
-    <div id="text-div" contenteditable style="min-height: 300px; background-color: #313131; color: white;"></div>
-    <button onclick="printValue()">print value</button>
+    <div class="main">
+        <div class="toolbar">
+            <button onclick="printValue()">logga</button>
+            <button onclick="changeTheme()">tema</button>
+            <button onclick="changeTheme2()">tema 2</button>
+            <button onclick="changeTheme3()">tema 3</button>
+        </div>
+    </div>
+    <div id="text-div" class="text-div" contenteditable style="min-height: 300px; background-color: #313131; color: white;"></div>
+    
 </body>
 
 <script src="./app.js"></script>

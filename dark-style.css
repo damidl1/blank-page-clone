@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body{
@@ -7,21 +7,10 @@ html, body{
     margin: 0px;
 }
 
-.dark{
+body{
     background-color: #313131;
     color: white;
 }
-
-.light{
-    background-color: white;
-    color: #313131;
-}
-
-.red{
-background-color: crimson;
-color: black;
-}
-
 
 .main{
     height: 100vh;
@@ -38,7 +27,7 @@ color: black;
     border: 1px solid lime;
 }
 
-.tex-div{
+.text-div{
     flex: 1;
     border: 1px solid crimson;
 }
